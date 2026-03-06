@@ -1,6 +1,6 @@
 # Hi, I'm Atharva 👋
 
-I’m a Data Science graduate student at **UC San Diego** with prior industry experience in **financial systems and data infrastructure** at State Street. My work sits at the intersection of **machine learning, data systems, and scalable infrastructure**.
+I’m a Data Science graduate student at **UC San Diego** with prior industry experience in **financial systems and data infrastructure**. My work sits at the intersection of **machine learning, data systems, and scalable infrastructure**.
 
 I enjoy building **ML-driven systems that move from experimentation to production** - from data pipelines and feature engineering to model training and deployment.
 
