@@ -1,29 +1,49 @@
 # Hi, I'm Atharva 👋
 
-I’m a Data Science graduate student at **UC San Diego** with prior industry experience in **financial systems and data infrastructure**. My work sits at the intersection of **machine learning, data systems, and scalable infrastructure**.
+MS Data Science @ **UC San Diego** · ex-Data Engineer @ **State Street** (2 yrs) · Based in San Diego, CA
 
-I enjoy building **ML-driven systems that move from experimentation to production** - from data pipelines and feature engineering to model training and deployment.
+I build ML systems and data pipelines — from raw data to production inference.
 
-## 🔬 Interests
-- Machine Learning Systems
-- Data Infrastructure & Pipelines
-- Distributed Data Processing
-- Applied AI & Real-world ML
+---
+
+## 🚀 Projects
+
+### [MarketPulse](https://github.com/atharvahirulkar/marketpulse) — Real-Time Market Data Pipeline
+Polygon.io WebSocket → Kafka → PySpark Structured Streaming → TimescaleDB → Grafana  
+`<100ms end-to-end latency` · `>1000 ticks/sec` · Docker Compose full local stack
+
+### [FraudAPI](https://github.com/atharvahirulkar/fraudapi) — ML Fraud Detection API
+IEEE-CIS dataset → XGBoost + LightGBM (20+ MLflow runs) → FastAPI → GCP Cloud Run  
+`AUC-PR >0.88` · `p99 latency <50ms` · MLflow model registry
+
+### [CosmeTik](https://github.com/atharvahirulkar/cosmetik) — Multi-Database Skincare Analytics
+PostgreSQL (3NF) + Neo4j (PageRank) + Qdrant (384-dim embeddings) → Hybrid ML Recommender  
+`8.5K products` · `1M+ reviews` · `30 ingredient communities` detected · Streamlit app
+
+### [PulseML](https://github.com/atharvahirulkar/pulseml) — Wearable ECG/PPG Monitor
+Custom IoT wristband (MAX86150 + Arduino Bluno BLE) → HeartPy signal processing → anomaly detection  
+LSTM arrhythmia classifier · HRV anomaly detection · BPM forecasting  
+**Copyright Reg. No. L-114951/2022 — Government of India**
+
+### [Multilingual Speech Transcription](https://github.com/atharvahirulkar/multilingual-speech-transcription) — Video-to-Text Pipeline
+Google Speech Recognition + BART-Large summarization + Google Translate  
+`100+ languages` · `~95% WER (English)` · Flask web app
+
+---
 
 ## 🛠️ Tech Stack
-**Languages:** Python, SQL, R, Bash  
-**ML / AI:** PyTorch, TensorFlow, Scikit-learn, Transformers, HuggingFace  
-**Data & Systems:** Spark, Snowflake, Kafka, Airflow, PostgreSQL, NoSQL  
-**Cloud & DevOps:** AWS, Azure, Docker, Kubernetes, Terraform  
-**Visualization:** Matplotlib, Seaborn, Tableau, Power BI
 
-## 🚀 What I Like Working On
-- Designing **scalable data pipelines**
-- Building **ML models that operate on real-world data**
-- Improving **system reliability and performance**
-- Turning **raw data into production-ready insights**
+**Languages:** Python · SQL · R · Bash  
+**ML / AI:** PyTorch · TensorFlow · Scikit-learn · HuggingFace Transformers · XGBoost · LightGBM  
+**Data Engineering:** Spark · Kafka · Airflow · Snowflake · PostgreSQL · TimescaleDB · Neo4j · Qdrant  
+**Cloud & DevOps:** AWS · GCP · Docker · Kubernetes · MLflow  
+**Visualization:** Grafana · Matplotlib · Seaborn · Plotly · Streamlit
 
-## 📌 Current Focus
-- Machine Learning Systems
-- Applied ML Engineering
-- Scalable Data Platforms
+---
+
+## 📬 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-atharvahirulkar-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/atharvahirulkar)
+[![GitHub](https://img.shields.io/badge/GitHub-atharvahirulkar-black?style=flat-square&logo=github)](https://github.com/atharvahirulkar)
+
+Open to: **Data Engineering · ML Engineering · Data Science** roles — Dec 2026
