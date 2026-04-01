@@ -102,5 +102,10 @@ End-to-end video processing with multi-stage NLP
 
 ## 📊 GitHub Activity
 
-[![Atharva's GitHub Stats](https://github-readme-stats.vercel.app/api?username=atharvahirulkar&theme=dark&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/atharvahirulkar)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=atharvahirulkar&theme=dark&hide_border=true&layout=compact)](https://github.com/atharvahirulkar)
+<a href="https://github.com/atharvahirulkar">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=atharvahirulkar&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=atharvahirulkar&layout=compact&langs_count=8&theme=dark" />
+</a>
+
+<!-- Fallback: If stats above don't load, visit the GitHub profile directly -->
+![Visitors](https://visitcount.itsvg.in/api?id=atharvahirulkar&icon=2&color=0)
