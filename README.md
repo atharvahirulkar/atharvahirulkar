@@ -97,15 +97,3 @@ End-to-end video processing with multi-stage NLP
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ahirulkar@ucsd.edu)
 
 **Open to:** Data Engineering · ML Engineering · Research Roles - 2026+
-
----
-
-## 📊 GitHub Activity
-
-<a href="https://github.com/atharvahirulkar">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=atharvahirulkar&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=atharvahirulkar&layout=compact&langs_count=8&theme=dark" />
-</a>
-
-<!-- Fallback: If stats above don't load, visit the GitHub profile directly -->
-![Visitors](https://visitcount.itsvg.in/api?id=atharvahirulkar&icon=2&color=0)
