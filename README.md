@@ -51,10 +51,10 @@ Focused on **production-grade ML**, **streaming systems**, and **vector database
 
 ## 🎯 Featured Projects
 
-### [MarketPulse](https://github.com/atharvahirulkar/marketpulse) - Real-Time Market Data Pipeline
-Multi-source streaming architecture with sub-100ms end-to-end latency  
+### [SignalStack](https://github.com/atharvahirulkar/SignalStack) - Real-Time ML Systems for Equity Markets
+Production-grade end-to-end pipeline with sub-100ms latency  
 `Polygon.io WebSocket` → `Kafka` → `PySpark Streaming` → `TimescaleDB` → `Grafana`  
-⚡ **>1000 ticks/sec** · 📊 Full local Docker stack · Production-ready monitoring
+⚡ **>1000 ticks/sec** · 📊 Full Docker Compose stack · 3 ML models (LSTM, XGBoost, Isolation Forest) · Drift monitoring with MLflow
 
 ### [FraudAPI](https://github.com/atharvahirulkar/fraud-detection) - ML Fraud Detection API  
 Ensemble gradient boosting with comprehensive MLflow experimentation  
