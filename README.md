@@ -2,7 +2,7 @@
 
 **MS Data Science @ UC San Diego** · **ex-Data Engineer @ State Street** (2 yrs) · San Diego, CA
 
-I architect ML systems and real-time data pipelines that transform raw data into measurable business impact.  
+I architect ML Infrastructure and real-time data systems that transform raw data into measurable business impact.  
 Focused on **production-grade ML**, **streaming systems**, and **vector databases**.
 
 ---
