@@ -68,6 +68,16 @@ End-to-end ML system: training, serving, batch scoring, and RAG-powered explanat
 `IEEE-CIS` → `XGBoost + LightGBM` (20+ MLflow runs) → `FastAPI` → `AWS ECS Fargate + ALB` · `Airflow` DAG → `S3 + Athena`  
 🎯 **AUC-PR >0.88** · ⚡ **p99 <80ms** · 🔍 RAG explanation layer (Qdrant + SHAP + GPT-4o-mini) · GitHub Actions CI/CD
 
+### [Cadbury](https://github.com/atharvahirulkar/cadbury) - Local-First AI Agent with Constraint Architecture
+Privacy-first terminal assistant powered by local LLMs — refining
+`Ollama (Qwen 2.5 7B)` → `Policy Engine` → `Allowlisted RAG Search` → `Audit Log` → `Interactive CLI`
+🔒 **Deny-by-default tool policy** · 📁 Allowlist-only file access · 🔍 Semantic search with source citations · 🖥️ Fully local inference · v0.2 active
+
+### [JobPilot](https://github.com/atharvahirulkar/JobPilot) - Autonomous Job Application Agent
+LLM-powered job application pipeline — testing
+`JD Ingestion` → `GPT-4o-mini Alignment Scoring` → `LaTeX Resume Tailoring` → `Cover Letter Generation` → `PostgreSQL Persistence`
+🎯 **0–100 resume↔JD fit scoring** · ✂️ Brace-match LaTeX injection · 📝 3-paragraph cover letter generation · 🗄️ Dedup pipeline
+
 ### [CosmeTik](https://github.com/atharvahirulkar/cosmetik) - Hybrid Vector + Graph ML Recommender
 Multi-database intelligence: relational + graph + vector embeddings  
 `PostgreSQL (3NF)` + `Neo4j (PageRank + Louvain)` + `Qdrant (384-dim embeddings)` → `Streamlit UI`  
