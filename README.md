@@ -62,37 +62,47 @@ Focused on **production-grade ML**, **streaming systems**, and **vector database
 ---
 
 ## 🎯 Featured Projects
-
-### [SignalStack](https://github.com/atharvahirulkar/SignalStack) - Real-Time ML Systems for Equity Markets
-Production-grade end-to-end pipeline with sub-100ms latency  
-`Polygon.io WebSocket` → `Kafka` → `PySpark Streaming` → `TimescaleDB` → `FastAPI` → `Grafana`  
-⚡ **>1,000 ticks/sec** · 📊 Full Docker Compose stack · 3 concurrent models (LSTM, LightGBM, Isolation Forest) · PSI drift monitoring with MLflow
-
+ 
 ### [FraudLens](https://github.com/atharvahirulkar/fraudlens) - Production Fraud Detection with Explainable AI
 End-to-end ML system: training, serving, batch scoring, and RAG-powered explanations  
 `IEEE-CIS` → `XGBoost + LightGBM` (20+ MLflow runs) → `FastAPI` → `AWS ECS Fargate + ALB` · `Airflow` DAG → `S3 + Athena`  
 🎯 **AUC-PR >0.88** · ⚡ **p99 <80ms** · 🔍 RAG explanation layer (Qdrant + SHAP + GPT-4o-mini) · GitHub Actions CI/CD
-
-### [Cadbury](https://github.com/atharvahirulkar/cadbury) - Local-First AI Agent with Constraint Architecture
-Privacy-first terminal assistant powered by local LLMs — refining
-`Ollama (Qwen 2.5 7B)` → `Policy Engine` → `Allowlisted RAG Search` → `Audit Log` → `Interactive CLI`
-🔒 **Deny-by-default tool policy** · 📁 Allowlist-only file access · 🔍 Semantic search with source citations · 🖥️ Fully local inference · v0.2 active
-
-### [JobPilot](https://github.com/atharvahirulkar/JobPilot) - Autonomous Job Application Agent
-LLM-powered job application pipeline — testing
-`JD Ingestion` → `GPT-4o-mini Alignment Scoring` → `LaTeX Resume Tailoring` → `Cover Letter Generation` → `PostgreSQL Persistence`
-🎯 **0–100 resume↔JD fit scoring** · ✂️ Brace-match LaTeX injection · 📝 3-paragraph cover letter generation · 🗄️ Dedup pipeline
-
+ 
+### [SignalStack](https://github.com/atharvahirulkar/SignalStack) - Real-Time ML Systems for Equity Markets
+Production-grade end-to-end pipeline with sub-100ms latency  
+`Polygon.io WebSocket` → `Kafka` → `PySpark Streaming` → `TimescaleDB` → `FastAPI` → `Grafana`  
+⚡ **>1,000 ticks/sec** · 📊 Full Docker Compose stack · 3 concurrent models (LSTM, LightGBM, Isolation Forest) · PSI drift monitoring with MLflow
+ 
+### [Seismic Risk Atlas](https://github.com/Varad02/SeismicRiskAtlas) - Block-Level Earthquake Loss Estimator · 🏆 Best Use of Marimo & Sphinx — DataHacks 2026
+Physics-based seismic risk modeling fused with housing and census data at census-tract resolution  
+`500 M6.7 Scenarios (Scripps)` → `Databricks Spark + KD-tree` → `FEMA HAZUS Fragility` → `XGBoost (GPU, NVIDIA L40s)` → `FastAPI + Leaflet.js`  
+🎯 **R² 0.99996** · ⚡ **0.70s GPU inference** · 📊 2,498 LA County census tracts · 🔍 OpenAI plain-English tract summaries
+ 
 ### [CosmeTik](https://github.com/atharvahirulkar/cosmetik) - Hybrid Vector + Graph ML Recommender
 Multi-database intelligence: relational + graph + vector embeddings  
 `PostgreSQL (3NF)` + `Neo4j (PageRank + Louvain)` + `Qdrant (384-dim embeddings)` → `Streamlit UI`  
 📦 **~8.5K products** · ⭐ **1M+ reviews** · 🔗 **30 ingredient communities detected** · Skin-type-aware discovery with zero manual curation
-
+ 
+### [Chokepoint](https://github.com/atharvahirulkar/chokepoint) - Defense Procurement Supply-Graph Intelligence · [Live Demo](https://atharvahirulkar-chokepoint.hf.space)
+Surfaces vendor concentration risk across the U.S. defense industrial base before disruption hits  
+`USAspending Bulk Archives (9.1M rows)` → `NetworkX MultiDiGraph` → `GradientBoosting + IsolationForest + Centrality` → `FastAPI` → `Streamlit on Hugging Face Spaces`  
+🎯 **recall@10 = 0.80** (2x betweenness baseline) · ⚡ **Sub-ms live stress test** · 🔍 **6 of 10 real disruptions in top 1%** of 49,842 vendors · 🛡️ N-1 contingency labels · validated against real events
+ 
+### [Cadbury](https://github.com/atharvahirulkar/cadbury) - Local-First AI Agent with Constraint Architecture
+Privacy-first terminal assistant powered by local LLMs  
+`Ollama (Qwen 2.5 7B)` → `Policy Engine` → `Allowlisted RAG Search` → `Audit Log` → `Interactive CLI`  
+🔒 **Deny-by-default tool policy** · 📁 Allowlist-only file access · 🔍 Semantic search with source citations · 🖥️ Fully local inference
+ 
+### [JobPilot](https://github.com/atharvahirulkar/JobPilot) - Autonomous Job Application Agent
+LLM-powered job application pipeline  
+`JD Ingestion` → `GPT-4o-mini Alignment Scoring` → `LaTeX Resume Tailoring` → `Cover Letter Generation` → `PostgreSQL Persistence`  
+🎯 **0–100 resume↔JD fit scoring** · ✂️ Brace-match LaTeX injection · 📝 3-paragraph cover letter generation · 🗄️ Dedup pipeline
+ 
 ### [PulseML](https://github.com/atharvahirulkar/pulseml) - IoT Wearable Biosensor System
 Full-stack IoT → signal processing → anomaly detection  
 `Custom ECG/PPG wristband (MAX86150 + Arduino Bluno BLE)` → `HeartPy signal processing` → `LSTM + 1D-CNN classifier`  
 🏆 **Copyright Reg. No. L-114951/2022** (Govt. of India) · **AUC 0.93** · 30% reduction in false-positive cardiac alerts · BPM forecasting 2.5 min ahead
-
+ 
 ### [Multilingual Speech Transcription](https://github.com/atharvahirulkar/multilingual-speech-transcription) - Video-to-Text Pipeline
 End-to-end video processing with multi-stage NLP  
 `Google Speech Recognition` + `BART-Large-CNN summarization` + `Google Translate` → `Flask web app`  
