@@ -88,7 +88,7 @@ Surfaces vendor concentration risk across the U.S. defense industrial base befor
 `USAspending Bulk Archives (9.1M rows)` → `NetworkX MultiDiGraph` → `GradientBoosting + IsolationForest + Centrality` → `FastAPI` → `Streamlit on Hugging Face Spaces`  
 🎯 **recall@10 = 0.80** (2x betweenness baseline) · ⚡ **Sub-ms live stress test** · 🔍 **6 of 10 real disruptions in top 1%** of 49,842 vendors · 🛡️ N-1 contingency labels · validated against real events
  
-### [Cadbury](https://github.com/atharvahirulkar/cadbury) - Local-First AI Agent with Constraint Architecture
+### [Irona](https://github.com/atharvahirulkar/irona) - Local-First AI Agent with Constraint Architecture
 Privacy-first terminal assistant powered by local LLMs  
 `Ollama (Qwen 2.5 7B)` → `Policy Engine` → `Allowlisted RAG Search` → `Audit Log` → `Interactive CLI`  
 🔒 **Deny-by-default tool policy** · 📁 Allowlist-only file access · 🔍 Semantic search with source citations · 🖥️ Fully local inference
