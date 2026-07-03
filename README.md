@@ -1,6 +1,6 @@
 # Hi, I'm Atharva
 
-**MS Data Science @ UC San Diego** · **ex-Data Engineer @ State Street** (2 yrs) · San Diego, CA
+**MS Data Science @ UC San Diego** · **ex-Data Engineer @ State Street** (3 yrs) · San Diego, CA
 
 I architect ML Infrastructure and real-time data systems that transform raw data into measurable business impact.  
 Focused on **production-grade ML**, **streaming systems**, and **vector databases**.
